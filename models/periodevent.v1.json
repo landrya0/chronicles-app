@@ -1,0 +1,19 @@
+{
+  "title": "PeriodEvent",
+  "type": "object",
+  "description": "",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "period": {
+      "$ref": "./Period.v1.json"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "linkedPonctualEvents": {
+      "$ref": "./ponctualevent.v1.yaml"
+    }
+  }
+}

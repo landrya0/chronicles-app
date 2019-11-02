@@ -1,0 +1,18 @@
+{
+  "title": "Period",
+  "type": "object",
+  "description": "",
+  "x-examples": {
+    "example-1": {}
+  },
+  "properties": {
+    "begin": {
+      "type": "string",
+      "description": "LocalDate"
+    },
+    "end": {
+      "type": "string",
+      "description": "LocalDate"
+    }
+  }
+}

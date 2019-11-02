@@ -1,0 +1,14 @@
+title: Chronicles
+type: object
+properties:
+  id:
+    type: string
+  periodEvents:
+    $ref: ./periodevent.v1.json
+  ponctualEvents:
+    $ref: ./ponctualevent.v1.yaml
+  snapshots:
+    type: array
+    items:
+      $ref: ./snapshot.v1.yaml
+description: Object principal représentant les chroniquue

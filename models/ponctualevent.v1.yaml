@@ -1,0 +1,13 @@
+title: PonctualEvent
+type: object
+properties:
+  id:
+    type: string
+  date:
+    type: string
+    description: LocalDateTime
+  descritpion:
+    type: string
+    description: RichText
+  '':
+    type: string
