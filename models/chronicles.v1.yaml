@@ -1,5 +1,6 @@
 title: Chronicles
 type: object
+description: Object principal représentant les chroniquue
 properties:
   id:
     type: string
@@ -11,4 +12,11 @@ properties:
     type: array
     items:
       $ref: ./snapshot.v1.yaml
-description: Object principal représentant les chroniquue
+  title:
+    type: string
+  description:
+    type: string
+  categories:
+    type: array
+    items:
+      $ref: ./category.v1.yaml

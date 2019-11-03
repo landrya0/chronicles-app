@@ -1,10 +1,15 @@
 title: Snapshot
 type: object
+description: Captures à un instant t de quelques informations de la vie
+x-examples:
+  example-1: {}
 properties:
   id:
     type: string
-  category:
-    $ref: ./category.v1.yaml
+  categories:
+    type: array
+    items:
+      $ref: ./category.v1.yaml
   date:
     type: string
     description: LocaleDateTime
@@ -16,4 +21,5 @@ properties:
     type: array
     items:
       $ref: ./periodevent.v1.json
-description: Captures à un instant t de quelques informations de la vie
+  description:
+    type: string

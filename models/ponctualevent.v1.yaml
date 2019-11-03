@@ -9,5 +9,5 @@ properties:
   descritpion:
     type: string
     description: RichText
-  '':
+  title:
     type: string

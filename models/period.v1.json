@@ -3,7 +3,12 @@
   "type": "object",
   "description": "",
   "x-examples": {
-    "example-1": {}
+    "example-1": {
+      "value": {
+        "begin": "11-10-05T14:48:00.000Z",
+        "end": "11-12-5T14:48:00.000Z"
+      }
+    }
   },
   "properties": {
     "begin": {

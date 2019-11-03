@@ -5,3 +5,9 @@ properties:
     type: string
   description:
     type: string
+  parent:
+    $ref: ./category.v1.yaml
+  siblings:
+    type: array
+    items:
+      $ref: ./category.v1.yaml
