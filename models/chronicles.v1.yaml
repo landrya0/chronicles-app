@@ -20,3 +20,5 @@ properties:
     type: array
     items:
       $ref: ./category.v1.yaml
+required:
+  - title
